@@ -1,0 +1,8 @@
+// This is an example of template than can be inject and replace variables
+
+function {{Name}}Effects(){
+
+}
+
+// {{Name}} is a variable that will substituted 
+// You can substitute with any variable you want and as many variables you want
