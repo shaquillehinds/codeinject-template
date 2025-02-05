@@ -24,7 +24,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "prebuild": "rm -rf src/hooks && rm -rf src/store",
+    "prebuild": "",
     "build": "rm -rf dist && tsc -p ./ && tsc-alias -p ./tsconfig.json && cp -r src/templates dist && chmod +x dist/index.bin.js",
     "build-exec-bin": "yarn build && node dist/index.bin.js",
     "exec-bin": "node dist/index.bin.js",
